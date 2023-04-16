@@ -2,6 +2,7 @@ body,
 html {
   margin: 0px;
   padding: 0px;
+  background-color: rgb(207, 209, 209);
 }
 
 header {
@@ -13,8 +14,10 @@ header {
 
 .container {
   width: 80%;
+  font-size: 12px;
   margin: 2% auto;
   padding: 1.7% 0;
+  background-color: whitesmoke;
   color: gray;
   border: 2px solid #999; /* set the border style, color, and width */
   border-radius: 10px; /* add rounded corners to the border */
