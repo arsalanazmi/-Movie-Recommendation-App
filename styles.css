@@ -1,0 +1,105 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  text-align: center;
+  padding: 1px;
+}
+
+.container {
+  width: 80%;
+  margin: 2% auto;
+  padding: 1.7% 0;
+  color: gray;
+  border: 2px solid #999; /* set the border style, color, and width */
+  border-radius: 10px; /* add rounded corners to the border */
+  box-shadow: 0 2px 4px 0.3px rgba(0, 0, 0, 0.3); /* add a shadow effect */
+}
+
+.options {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+}
+
+.options div {
+  width: 33.3%;
+}
+
+.options select {
+  width: 100%;
+  padding: 5px 0;
+}
+
+.rating div {
+  width: 95%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.rating select {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(104, 103, 103);
+  color: white;
+  border: none;
+  padding: 1% 0;
+  border-radius: 4px;
+}
+
+.display {
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.movie {
+  width: 80%;
+  text-align: left;
+}
+
+.year,
+.rank {
+  text-align: center;
+}
+
+td,
+th {
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+
+td > div {
+  display: flex;
+}
+
+.description {
+  padding-left: 10px;
+}
+
+.title {
+  color: rgb(62, 113, 155);
+}
+
+.certification {
+  border: 1px solid gray;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  padding: 2px 3px;
+}
